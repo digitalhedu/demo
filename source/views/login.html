@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo</title>
+    <!-- Recursos Foraneos -->
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Recursos Propios-->
+    <link rel="stylesheet" href="/styles/user.css">
+</head>
+<body>
+    <header id="main-header">
+        <nav id="brand">
+            <a href="/">
+                <picture>
+                    <img src="/images/logo.png" alt="">
+                </picture>
+            </a>
+        </nav>
+        <form action="/" method="get" id="search-form">
+            <label for="query"><i class="fa-solid fa-search"></i></label>
+            <input type="text" name="q" id="query">
+            <button type="submit"><i class="fa-solid fa-search"></i></button>
+        </form>
+        <nav id="social">
+            <a href="http://facebook.com" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="http://instagram.com" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="http://twitter.com" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+        </nav>
+        <ul class="menu principal">
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Nosotros</a></li>
+            <li><a href="/">Productos</a></li>
+            <li><a href="/">Contacto</a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="/login">Usuario <i class="fa-solid fa-user"></i></a></li>
+            <li><a href="/favs">Favoritos<i class="fa-solid fa-star"></i></a></li>
+            <li><a href="/carrito">Carrito<i class="fa-solid fa-shopping-cart"></i></a></li>
+        </ul>
+    </header>
+</body>
+</html>
